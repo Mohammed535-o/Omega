@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@300&family=Dancing+Script&family=Indie+Flower&family=Orbitron&family=Playfair+Display:ital,wght@0,800;1,700&family=Rajdhani&family=Red+Hat+Mono:wght@300&family=Roboto+Mono:wght@200&family=Ropa+Sans&family=Rubik+Beastly&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.navbar{
+    color : white;
+    background-color: black;
+}
+.navbar-nav{
+    margin-left : auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap : 1.5em;
+    font-size : 1.3em;
+    color : red;
+}
+.navbar-nav .nav-item a{
+    color : red;
+    font-weight: bold ;
+}
+.navbar-brand{
+    color :white;
+    font-size : 1.3em;
+}
+.navbar-brand:hover{
+    color :white;
+}
+.O{
+    font-size : 1.5em;
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar span{
+    color : white;
+}
+.nav-item1 a:hover,
+.nav-item2 a:hover,
+.nav-item3 a:hover,
+.nav-item4 a:hover{
+    border-bottom : 1px solid white;
+    transition: all .3s ease-in-out;
+}
+.huh{
+    font-size : 1.8em;
+    color : red;
+}
+.main-section{
+    background-image: url("./logo2.gif");
+    height: 120vh;
+    text-align: center;
+    color : white;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-section{
+    padding-top : 12em;
+}
+.main-section h1{
+    font-weight : bold;
+}
+.main-section p{
+    letter-spacing: 0.1em;
+    color : red;
+    font-weight: 400;
+}
+.O1{
+    color : red;
+    font-size: 1.2em;
+    font-family: 'Orbitron', sans-serif;
+}
+.buttons{
+    margin-top : 5em;
+    display: flex;
+    gap : 2em;
+    justify-content: center;
+}
+.buttons a:hover{
+    color : white;
+}
+.btn1,.btn2{
+    color : white;
+    background : transparent;
+    border : 2px solid white;
+    padding-left : .8em;
+    padding-right : .8em;
+    padding-top : .3em;
+    padding-bottom : .3em;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius : 10px;
+}
+.btn1:hover,
+.btn2:hover{
+    color : black;
+    background-color: white;
+    transform: scale(1.1);
+     box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+   transition: .3s ease-in-out;
+}
+.video-header{
+    padding : 12vw;
+    /* background-color: transparent;
+    background-image : linear-gradient(170deg,170deg,#162440 18%,#3C469E 85%); */
+    background-color: black;
+}
+.video-section{
+    /* background : black; */
+    position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 66.66%;
+}
+.video-section{
+    border : 1px solid rgb(42, 41, 41);
+}
+.video-section iframe{
+   position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+footer{
+    text-align: center;
+    padding : 0.5em;
+    background-color: rgb(10, 9, 9);
+    color : white;
+    word-spacing: 0.8em;
+    letter-spacing: .1em;
+}
